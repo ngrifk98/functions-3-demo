@@ -116,3 +116,10 @@ console.log('Remaining Budget:')
 const remaining = expenses.reduce((budget, expense) => budget - expense.amount, budget)
 console.log(remaining)  // 450
 
+// 6: CHALLENGE: Make a callback function that takes in a number and returns that number multiplied by 4. Try with arrow function syntax. Can you do it in one line?
+console.log("\nCHALLENGE")
+const multiplyByFour = number => number * 4;
+
+// Testing the callback function
+console.log(multiplyByFour(5)); // Output: 20
+console.log(multiplyByFour(10)); // Output: 40
